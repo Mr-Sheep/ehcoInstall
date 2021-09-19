@@ -2,7 +2,7 @@ This script helps you to download Ehco to you local machine (currenly amd64 linu
 
 To use this script:
 ```
-bash <(wget https://raw.githubusercontent.com/Mr-Sheep/ehcoInstall/master/ehcoInstall.sh)
+bash <(curl https://raw.githubusercontent.com/Mr-Sheep/ehcoInstall/master/ehcoInstall.sh)
 
 ```
 
