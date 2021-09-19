@@ -1,9 +1,8 @@
-This script helps you to download Ehco to you local machine (currenly amd64 linux supported, I hard coded it cuz I'm lazy).
+This script helps you to download [Ehco](https://github.com/Ehco1996/ehco) to you local machine (currenly amd64 linux supported, I hard coded it cuz I'm lazy).
 
 To use this script:
 ```
 bash <(curl https://raw.githubusercontent.com/Mr-Sheep/ehcoInstall/master/ehcoInstall.sh)
-
 ```
 
 This script will create:
