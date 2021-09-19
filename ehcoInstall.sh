@@ -10,6 +10,7 @@ configURL=$(wget -O "/root/config.json" https://raw.githubusercontent.com/Mr-She
 systemd=$(wget -O "/lib/systemd/system/ehco.service" https://raw.githubusercontent.com/Mr-Sheep/ehcoInstall/master/ehco.service )
 
 chmod +x $packageName && mv $packageName /usr/local/bin/ehco
+systemctl daemon-reload
 
 if $(ehco -v 2>/dev/null); then
   echo -e "\n ${GREEN} Ehco's installtion process completed ${NC}"
